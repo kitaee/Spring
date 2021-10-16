@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/join.css">
+</head>
+<body>
+<div class="nav">
+    <div class="nav_main">
+        <button type="button" class="logoBtn" onClick="location.href='main'">FLY</button>
+    </div>
+</div>
+
+<div class="main">
+    <div id="grid">
+        <div class="left_space">
+        </div>
+        <div class="main_space">
+            <div class="announce_word">
+                START JOINING
+            </div>
+            <div class="cheer_word">
+                If you use FLY Account, you can get 5% discount.
+            </div>
+
+            <div class="announce_word2">
+                '*' means you have to enter.
+            </div>
+            <form action="/join" method="post">
+                <div class="enter_id">
+                    ID <span class="essential">*</span><br>
+                    <input type ="text" class="id" name="id" size=12>
+                </div>
+                <div class="enter_pw">
+                    PASSWORD <span class="essential">*</span><br>
+                    <input type ="text" class="pw" name="password" size=12>
+                </div>
+                <div class="enter_email">
+                    E-MAIL <br>
+                    <input type ="text" class="email" name="email">
+                </div>
+                <div class="enter_phone">
+                    PHONE <span class="essential">*</span><br>
+                    <input type ="text" class="phone1" name="phone1" size=12>
+                    <input type ="text" class="phone2" name="phone2" size=12>
+                    <input type ="text" class="phone3" name="phone3" size=12>
+                </div>
+
+                <div class="complete_join">
+                    <button type="submit" class="complete_join_btn">COMPLETE</button>
+                </div>
+            </form>
+        </div>
+        <div class="right_space">
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

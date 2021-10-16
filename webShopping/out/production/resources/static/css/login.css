@@ -1,0 +1,160 @@
+.nav{
+    height : 70px;
+}
+
+.top-left, .logo, .login, .join{
+    float : left;
+}
+
+.logoBtn, .joinBtn, .loginBtn, .questionBtn{
+    margin-top: 10px;
+}
+
+
+.logoBtn{
+    font-size : 40px;
+    border : 0;
+    outline: 0;
+    background-color: white;
+    font-weight : bold;
+    margin-left : 660px;
+}
+
+.questionBtn, .loginBtn, .joinBtn{
+    font-size : 20px;
+    background-color: #2CB2D5;
+    color : white;
+    font-weight : bold;
+    border : 2px solid #2CB2D5;
+    border-radius : 25px;
+}
+
+
+.questionBtn{
+    margin-right : 40px;
+}
+
+.top-right, .question{
+    float : right;
+}
+
+#grid{
+    display : grid;
+    grid-template-columns: 150px 1fr 1fr 150px;
+}
+
+.main_login{
+    border-top : #E0E6E8 1px solid;
+}
+
+.advertisement{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3_gnYQVJbLrEPUbIPa8QDPBNU-q0yx27Cw&usqp=CAU");
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+    height : 740px;
+}
+
+.left_space, .right_space{
+    background-color: #E0E6E8;
+}
+
+.login_title{
+    font-weight : bold;
+    font-size : 25px;
+    padding-top : 70px;
+    padding-left : 220px;
+}
+
+.id, .pw{
+    color : #C1C3C3;
+    font-weight : bold;
+    font-size : 15px;
+    width : 300px;
+    height : 50px;
+    margin-top : 15px;
+    margin-left : 110px;
+    padding-left : 15px;
+    border : 1px solid #C1C3C3;
+}
+
+.id{
+    margin-top : 50px;
+}
+
+.save_id{
+    color : #C1C3C3;
+    font-weight : bold;
+    font-size : 15px;
+    margin-top : 10px;
+    margin-left : 55px;
+}
+
+.complete_login{
+    font-weight : bold;
+    font-size : 18px;
+    color : white;
+    background-color: #F8475A;
+    border : 1px solid #F8475A;
+    width : 320px;
+    height : 50px;
+    margin-top : 30px;
+    margin-left : 110px;
+}
+
+.join1, .find_id, .find_pw{
+    font-weight : bold;
+    font-size : 18px;
+    border : 0;
+    outline : 0;
+    background-color : white;
+    margin-top : 25px;
+    margin-left : 25px;
+}
+
+.join1{
+    margin-left : 138px;
+}
+
+.click_join{
+    border-bottom : 1px solid #E0E6E8;
+    height : 70px;
+    padding-left : 10px;
+}
+
+.payco_login{
+    font-weight : bold;
+    font-size : 18px;
+    color : #F8475A;
+    background-color: white;;
+    border : 1px solid #F8475A;
+    width : 320px;
+    height : 50px;
+    margin-top : 30px;
+    margin-left : 110px;
+}
+
+#naver_logo, #facebook_logo{
+    width : 35px;
+    height : 35px;
+    border-radius : 70%;
+}
+
+.naver_login, .facebook_login{
+    background-color : white;
+    font-weight : bold;
+    border : 0;
+    outline : 0;
+    margin-top : 10px;
+}
+
+.naver_login{
+    float : left;
+    margin-left : 160px;
+}
+
+.facebook_login{
+    float : right;
+    margin-right : 165px;
+}
+
+

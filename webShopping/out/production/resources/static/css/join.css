@@ -1,0 +1,97 @@
+.logoBtn{
+    font-size : 40px;
+    border : 0;
+    outline: 0;
+    background-color: white;
+    font-weight : bold;
+    text-align: center;
+    margin-left : 670px;
+}
+
+.nav{
+    height : 70px;
+    border-bottom : 1px solid #E0E6E8;
+}
+
+#grid{
+    display : grid;
+    grid-template-columns: 150px 1fr 150px;
+}
+
+.left_space, .right_space{
+    background-color: #E0E6E8;
+    height : 725px;
+}
+
+.announce_word{
+    font-size : 30px;
+    font-weight : bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cheer_word{
+    color : #949191;
+    font-size : 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.announce_word2{
+    color : red;
+    text-align: center;
+    font-size : 20px;
+    font-weight: bold;
+}
+
+
+.enter_id, .enter_pw, .enter_phone, .enter_email{
+    margin-top : 40px;
+    margin-left : 340px;
+    font-weight : bold;
+    font-size : 25px;
+}
+
+.enter_id{
+    margin-top : 30px;
+}
+
+.essential{
+    font-weight : bold;
+    color : red;
+}
+
+.id, .pw, .email{
+    width : 430px;
+    height : 30px;
+    border : 1px black solid;
+}
+
+.phone1, .phone2, .phone3{
+    border : 1px black solid;
+    width : 137px;
+    height : 30px;
+}
+
+.complete_join_btn{
+    font-weight : bold;
+    font-size : 18px;
+    color : white;
+    background-color: #F8475A;
+    border : 1px solid #F8475A;
+    width : 250px;
+    height : 30px;
+    margin-top : 50px;
+    margin-left : 420px;
+}
+
+.certification{
+    color : white;
+    font-weight : bold;
+    background-color : black;
+    border : 1px solid black;
+    margin-left : 20px;
+    font-size : 15px;
+    margin-top : 7px;
+}
